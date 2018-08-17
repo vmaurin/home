@@ -1,0 +1,9 @@
+[user]
+	name = Vincent Maurin
+	email = vincent.maurin@fake.com
+[core]
+	editor = vim
+[push]
+	default = matching
+[url "https://"]
+	insteadOf = git://

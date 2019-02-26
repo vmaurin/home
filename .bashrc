@@ -150,6 +150,12 @@ alias hgit='git --git-dir .home-git'
 
 source /usr/share/git/completion/git-completion.bash
 
+# Tilix
+
+if [[ $TILIX_ID ]]; then
+  source /etc/profile.d/vte.sh
+fi
+
 # Prompt
 
 powerline-daemon -q
@@ -160,3 +166,4 @@ POWERLINE_BASH_SELECT=1
 # Editor
 
 export EDITOR=vim
+

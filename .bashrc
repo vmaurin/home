@@ -145,6 +145,8 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 alias la='ls -a'
 alias ll='ls -l'
 alias hgit='git --git-dir .home-git'
+alias draw='xsetwacom set "Wacom One by Wacom S Pen stylus" area -9567 -5115 24767 14615'
+alias rdraw='xsetwacom set "Wacom One by Wacom S Pen stylus" resetarea'
 
 # Git 
 
